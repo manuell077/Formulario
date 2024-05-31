@@ -10,21 +10,27 @@
 
      <div>
     <label for="text">Nombre</label>
-       <input type="text" id="text" pattern="[a-zA-Z ]{3,50}">
+       <input type="text" id="text">
        </div>
        
       <div>
         <label for="number">Numero</label>
-        <input type="number" id="number"  step="1" >
+        <input type="number" id="number" step="1" >
       </div>
-       
+
       <div>
-        <label for="valnumber">Validacion Numero</label>
-        <input type="text" id="valnumber"  pattern="[0-9]{1,10}" >
-      </div>
+        <label for="validnumber">Validacion Numero</label>
+        <input type="text" id="validnumber" pattern="[0-9]{1,10}" >
 
 
+      </div> 
 
+         <div>
+        <label for="validemail">Validacion Email</label>
+        <input type="text" id="validemail" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" >
+
+
+      </div> 
 
       <div>
         <h4>Genero</h4>
