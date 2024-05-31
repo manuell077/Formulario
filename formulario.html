@@ -10,13 +10,21 @@
 
      <div>
     <label for="text">Nombre</label>
-       <input type="text" id="text">
+       <input type="text" id="text" pattern="[a-zA-Z ]{3,50}">
        </div>
        
       <div>
         <label for="number">Numero</label>
-        <input type="number" id="number" step="1" >
+        <input type="number" id="number"  step="1" >
       </div>
+       
+      <div>
+        <label for="valnumber">Validacion Numero</label>
+        <input type="text" id="valnumber"  pattern="[0-9]{1,10}" >
+      </div>
+
+
+
 
       <div>
         <h4>Genero</h4>
